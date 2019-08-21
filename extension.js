@@ -32,20 +32,17 @@ function activate(context) {
 				type === 'config' ? generators.createConfigJs(componentDir, componentName) : undefined
 			])
 		})
-		.then(
-			() => logger('success', 'Malvid component successfully created!'),
-			err => logger('error', err.message)
-		)
+		.then( () => logger('success', 'Malvid component successfully created!'), err => logger('error', err.message) )
 	}
 
 	const componentsList = [
 		{
 			type: 'config',
-			commandID: 'extension.createMalvidComponentWithConfig'
+			commandID: 'extension.newMalvidComponentWithConfig'
 		},
 		{
 			type: 'basic',
-			commandID: 'extension.createMalvidComponent'
+			commandID: 'extension.newMalvidComponent'
 		}
 	];
 

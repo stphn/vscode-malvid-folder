@@ -39,7 +39,7 @@ module.exports = {
 				contextMenuSourcePath = vscode.workspace.rootPath
 			}
 
-			const folders = glob.sync('**/components', {
+			const folders = glob.sync('!(node_modules)**/components', {
 				cwd: contextMenuSourcePath
 			})
 			console.log(folders)

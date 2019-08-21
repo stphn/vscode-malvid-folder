@@ -3,7 +3,8 @@ const vscode = require('vscode')
 const fse = require('fs-extra')
 const fs = require('fs')
 const path = require('path')
-const glob = require('glob')
+//const glob = require('glob')
+const {sync} = require('glob-gitignore')
 const snake = require('change-case').snake
 
 function logger(type, msg = '') {
@@ -39,16 +40,27 @@ module.exports = {
 				contextMenuSourcePath = vscode.workspace.rootPath
 			}
 
-			const folders = glob.sync('!(node_modules)**/components', {
-				cwd: contextMenuSourcePath
+			const folders = sync('**/components', {
+				cwd: contextMenuSourcePath,
+				ignore: ['node_modules'],
 			})
 			console.log(folders)
 
-			let componentDir
+			let componentDir = `${ contextMenuSourcePath }/${snake(componentName)}`
 
-			if (folders.length === 0) componentDir = `${ contextMenuSourcePath }/${snake(componentName)}`
+			if (folders.length > 1) {
+				logger('Warning', 'There are multiple instance of "components"')
+				;[
+					`Component created @root 👉🏾 ${vscode.workspace.rootPath} 🤞🏾`,
+					`👉🏾 ${folders}`,
+					`😱 We found ${folders.length} instances of the "components" folder`
+				].forEach((message) => vscode.window.showInformationMessage(message))
+			}
 
-			else componentDir = `${ contextMenuSourcePath }/${ folders[0] }/${snake(componentName)}`
+			if (folders.length === 1) {
+				componentDir = `${ contextMenuSourcePath }/${ folders[0] }/${snake(componentName)}`
+				vscode.window.showInformationMessage(`👍🏾 Component created @ ${folders}`)
+			}
 
 			fse.mkdirsSync(componentDir)
 

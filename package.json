@@ -1,10 +1,10 @@
 {
- "name": "malvidcomponents",
- "displayName": "MalvidComponents",
- "description": "Generates folder and file structure for malvid components",
- "author": "Stephane Goeuriot",
+  "name": "malvidcomponents",
+  "displayName": "MalvidComponents",
+  "description": "Generates folder and file structure for malvid components",
+  "author": "Stephane Goeuriot",
   "publisher": "stephanegoeuriot",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "icon": "images/icon.png",
   "engines": {
@@ -75,7 +75,9 @@
     "change-case": "^3.1.0",
     "fs": "^0.0.1-security",
     "fs-extra": "^8.1.0",
-    "glob": "^7.1.4"
+    "gitignore-globs": "^0.1.1",
+    "glob": "^7.1.4",
+    "glob-gitignore": "^1.0.14"
   },
   "repository": "https://github.com/stphn/vscode-malvid-folder"
 }

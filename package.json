@@ -1,10 +1,10 @@
 {
   "name": "malvidcomponents",
-  "displayName": "MalvidComponents",
+  "displayName": "Malvid Components",
   "description": "Generates folder and file structure for malvid components",
   "author": "Stephane Goeuriot",
   "publisher": "stephanegoeuriot",
-  "version": "0.0.6",
+  "version": "0.0.1",
   "license": "MIT",
   "icon": "images/icon.png",
   "engines": {

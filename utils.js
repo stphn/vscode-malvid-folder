@@ -42,7 +42,7 @@ module.exports = {
 
 			const folders = sync('**/components', {
 				cwd: contextMenuSourcePath,
-				ignore: ['node_modules'],
+				ignore: ['node_modules','dist']
 			})
 			console.log(folders)
 

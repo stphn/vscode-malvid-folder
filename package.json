@@ -4,7 +4,7 @@
   "description": "Generates folder and file structure for malvid components",
   "author": "Stephane Goeuriot",
   "publisher": "stephanegoeuriot",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "license": "MIT",
   "icon": "images/icon.png",
   "engines": {

@@ -15,29 +15,29 @@
     "Snippets"
   ],
   "activationEvents": [
-    "onCommand:extension.createMalvidComponentWithConfig",
-    "onCommand:extension.createMalvidComponent"
+    "onCommand:extension.newMalvidComponentWithConfig",
+    "onCommand:extension.newMalvidComponent"
   ],
   "main": "./extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "extension.createMalvidComponentWithConfig",
-        "title": "Create Malvid Component With Config"
+        "command": "extension.newMalvidComponentWithConfig",
+        "title": "New Malvid Component With Config"
       },
       {
-        "command": "extension.createMalvidComponent",
-        "title": "Create Malvid Component"
+        "command": "extension.newMalvidComponent",
+        "title": "New Malvid Component"
       }
     ],
     "menus": {
       "explorer/context": [
         {
-          "command": "extension.createMalvidComponentWithConfig",
+          "command": "extension.newMalvidComponentWithConfig",
           "group": "navigation"
         },
         {
-          "command": "extension.createMalvidComponent",
+          "command": "extension.newMalvidComponent",
           "group": "navigation"
         }
       ]
@@ -68,14 +68,14 @@
     "@types/vscode": "^1.37.0",
     "eslint": "^5.13.0",
     "mocha": "^6.1.4",
-    "glob": "^7.1.4",
     "typescript": "^3.3.1",
     "vscode-test": "^1.0.2"
   },
   "dependencies": {
     "change-case": "^3.1.0",
     "fs": "^0.0.1-security",
-    "fs-extra": "^8.1.0"
+    "fs-extra": "^8.1.0",
+    "glob": "^7.1.4"
   },
   "repository": "https://github.com/stphn/vscode-malvid-folder"
 }

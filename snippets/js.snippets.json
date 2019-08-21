@@ -1,0 +1,9 @@
+{
+  "require": {
+    "prefix": "require",
+    "body": [
+      "$1: require('../$1/$1.data')"
+    ],
+    "description": "Require data"
+  }
+}

@@ -8,6 +8,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release
 
+## [0.0.5] - 2019-08-21
+### Fixed
+- Fixed case of multiple components folders
+### Added
+- Added feedback messages
+
 ## [0.0.4] - 2019-08-21
 ### Added
 - Added snippets 

@@ -2,7 +2,7 @@
 
 ## The easiest way to create folders for Malvid components within VSCode
 
-### This extension allows you to create a component inside an already and unique existing "components" folder.
+This extension allows you to create a component inside an already and unique existing *"components"* folder.
 
 1. The workspace directory will be scanned for a *"components"* folder, ignoring *"node-modules"* and *"dist"* folder
 

@@ -518,10 +518,6 @@ get-stream@^4.0.0:
   dependencies:
     pump "^3.0.0"
 
-gitignore-globs@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/gitignore-globs/-/gitignore-globs-0.1.1.tgz#f6247c032f2bb4ac0abe84941d3fc423d8c1a40b"
-
 glob-gitignore@^1.0.14:
   version "1.0.14"
   resolved "https://registry.yarnpkg.com/glob-gitignore/-/glob-gitignore-1.0.14.tgz#8b708cb029e73bd388d22f7f935213aa93a1e7c2"

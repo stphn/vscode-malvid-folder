@@ -3,7 +3,6 @@ const vscode = require('vscode')
 const fse = require('fs-extra')
 const fs = require('fs')
 const path = require('path')
-//const glob = require('glob')
 const {sync} = require('glob-gitignore')
 const snake = require('change-case').snake
 
@@ -44,7 +43,6 @@ module.exports = {
 				cwd: contextMenuSourcePath,
 				ignore: ['node_modules','dist']
 			})
-			console.log(folders)
 
 			let componentDir = `${ contextMenuSourcePath }/${snake(componentName)}`
 

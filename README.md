@@ -1,12 +1,12 @@
 # CREATE MALVID COMPONENT
 
-### The easiest way to create folders for Malvid components with VSCode
+## The easiest way to create folders for Malvid components within VSCode
 
-Your component will be created inside an already existing "components" folder.
+### This extension allows you to create a component inside an already and unique existing "components" folder.
 
-1. The workspace directory will be scanned for a "components" folder, ignoring "node-modules" and "dist" folder
+1. The workspace directory will be scanned for a *"components"* folder, ignoring *"node-modules"* and *"dist"* folder
 
-2. If multiples "components" folder are found your component will be created at the root of the directory.
+2. If multiples *"components"* folder are found your component will be created at the root of the directory.
 
 At the end you get a directory that looks like this:
 
@@ -25,11 +25,11 @@ At the end you get a directory that looks like this:
 
 ## Usage
 
-Activate command (cmd + Shift + p )
+Activate command (cmd + Shift + p ) or use the context menu (right click)
 
 choose between **"Create Malvid Component"** or **"Create Malvid Component With Config"**.
 
-![screenshot](https://raw.githubusercontent.com/stphn/create-malvid-component/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/stphn/vscode-malvid-folder/master/images/screenshot.png)
 
 ## Features
 
@@ -48,25 +48,26 @@ i.e "loremFolder Ipsum" => "lorem_folder_ipsum"
 
 **.njk** file inherits the component name as class name
 
-```
+```html
 <div class="{componentName}">
 
 </div>
 ```
 
 **.data.js** files already have module.exports
-```
+```javascript
 module.exports = {
 
 }
 ```
 
 **.config.js** files already have module.exports
-```
+```javascript
 module.exports = {
 	group: ''
 }
 ```
+___
 
 ## Bonus
 
@@ -78,3 +79,6 @@ try **require**
 
 ### SCSS snippets
 try **cc**, **media**, **trans**
+
+---
+Thanks to [Tobias Reich](https://github.com/electerious) and [Markus Morley](https://github.com/gasseklopper)

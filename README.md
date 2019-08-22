@@ -67,18 +67,6 @@ module.exports = {
 	group: ''
 }
 ```
-___
-
-## Bonus
-
-### Nunjucks snippets
-try **row**, **inject**, **bdt**, **tar**
-
-### Javascript snippets
-try **require**
-
-### SCSS snippets
-try **cc**, **media**, **trans**
 
 ---
 🤙🏾 Thanks to [Tobias Reich](https://github.com/electerious) and [Markus Morley](https://github.com/gasseklopper)

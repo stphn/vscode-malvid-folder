@@ -4,6 +4,10 @@ All notable changes to the "malvidcomponents" extension will be documented in th
 
 ## [Unreleased]
 
+## [1.0.0] - 2014-05-31
+### Deprecated
+- moved snippets into a [separate extension](https://marketplace.visualstudio.com/items?itemName=stephanegoeuriot.nunjucks-vscode-snippets)
+
 ## [0.0.2] - 2014-05-31
 ### Fixed
 - Compressed images, removed useless files and folder from package

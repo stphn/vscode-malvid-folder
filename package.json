@@ -69,14 +69,13 @@
     "eslint": "^5.13.0",
     "mocha": "^6.1.4",
     "typescript": "^3.3.1",
+    "glob": "^7.1.4",
     "vscode-test": "^1.0.2"
   },
   "dependencies": {
     "change-case": "^3.1.0",
     "fs": "^0.0.1-security",
     "fs-extra": "^8.1.0",
-    "gitignore-globs": "^0.1.1",
-    "glob": "^7.1.4",
     "glob-gitignore": "^1.0.14"
   },
   "repository": "https://github.com/stphn/vscode-malvid-folder"

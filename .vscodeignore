@@ -6,6 +6,6 @@ vsc-extension-quickstart.md
 **/jsconfig.json
 **/*.map
 **/.eslintrc.json
-images
+images/screenshot.png
 *.vsix
 yarn.lock

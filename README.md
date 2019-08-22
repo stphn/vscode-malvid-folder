@@ -27,7 +27,7 @@ At the end you get a directory that looks like this:
 
 Activate command (cmd + Shift + p ) or use the context menu (right click)
 
-choose between **"Create Malvid Component"** or **"Create Malvid Component With Config"**.
+choose between **"New Malvid Component"** or **"New Malvid Component With Config"**.
 
 ![screenshot](https://raw.githubusercontent.com/stphn/vscode-malvid-folder/master/images/screenshot.png)
 
@@ -35,7 +35,7 @@ choose between **"Create Malvid Component"** or **"Create Malvid Component With 
 
 ### Inside the "components" folder
 
-We are looking for an existing "components" folder and components will be created there.
+We are looking for an existing *"components"* folder and components will be created there.
 If not, this falls back to the workspace root "vscode.workspace.rootPath"
 
 ### Naming convention autocorrection
@@ -81,4 +81,4 @@ try **require**
 try **cc**, **media**, **trans**
 
 ---
-Thanks to [Tobias Reich](https://github.com/electerious) and [Markus Morley](https://github.com/gasseklopper)
+🤙🏾 Thanks to [Tobias Reich](https://github.com/electerious) and [Markus Morley](https://github.com/gasseklopper)

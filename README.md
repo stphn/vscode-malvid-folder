@@ -1,5 +1,7 @@
 # CREATE MALVID COMPONENT
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/stphn/vscode-malvid-folder.svg)](https://greenkeeper.io/)
+
 ## The easiest way to create folders for Malvid components within VSCode
 
 This extension allows you to create a component inside an already and unique existing *"components"* folder.

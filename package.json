@@ -50,9 +50,9 @@
   "devDependencies": {
     "@types/glob": "^7.1.1",
     "@types/mocha": "^5.2.6",
-    "@types/node": "^10.12.21",
+    "@types/node": "^12.11.1",
     "@types/vscode": "^1.37.0",
-    "eslint": "^5.13.0",
+    "eslint": "^6.5.1",
     "mocha": "^6.1.4",
     "typescript": "^3.3.1",
     "glob": "^7.1.4",
@@ -60,7 +60,7 @@
   },
   "dependencies": {
     "change-case": "^3.1.0",
-    "fs": "^0.0.1-security",
+    "fs": "^0.0.2",
     "fs-extra": "^8.1.0",
     "glob-gitignore": "^1.0.14"
   },
